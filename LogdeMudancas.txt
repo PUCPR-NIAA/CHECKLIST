@@ -1,0 +1,41 @@
+Versão 1.0
+- Básico implementado através do cake bake.
+
+Versão 1.1
+- Implementação das funções de alteração de senha do usuário logado e de todos os usuário com controle de administrador;
+- Método ADMIN_INDEX dos usuários somente se tiver o campo ADMIN com TRUE;
+- Método ADMIN_VIEW dos usuários somente se tiver o campo ADMIN com TRUE.
+
+Versão 1.2
+- Implementação do Log de Mudanças;
+- Alteração do título do CONTROLLER USERS VIEW;
+- Alteração do título do CONTROLLER USERS CHANGEPASSWORD;
+- Alteração do título do CONTROLLER USERS ADMIN_CHANGEPASSWORD;
+- Alteração do título do CONTROLLER USERS ADMIN_INDEX;
+- Alteração do título do CONTROLLER USERS ADMIN_VIEW;
+- Alteração do título do CONTROLLER USERS ADMIN_ADD;
+- Alteração do título do CONTROLLER USERS ADMIN_EDIT;
+- Método ADMIN_ADD dos usuários somente se tiver o campo ADMIN com TRUE;
+- Método ADMIN_EDIT dos usuários somente se tiver o campo ADMIN com TRUE;
+- Método ADMIN_DELETE dos usuários somente se tiver o campo ADMIN com TRUE.
+
+Versão 1.3
+- Alterado tipo de mensagem de sucesso para SUCCESS do USERS;
+- Controle de usuário em todos os métodos com prefixo ADMIN de todos os CONTROLLERS;
+- Listar todos os CHECKLISTS do mesmo bloco com turno diferente do usuário logado.
+
+Versão 1.4
+- Adicionado RESTRIÇÃO na listagem do checklist por bloco, turno e data;
+- Formato da data mudado para exibição da forma brasileira dd/mm/YYYY;
+- Adicionado REPORT para reportar um CHECKLIST de sala de aula;
+- Criado MYINDEX para exibição do checklist do usuário logado;
+- Alterado os métodos ADD, EDIT, VIEW e DELETE do MODEL CHECKLIST com prefixo ADMIN;
+- Método ADMIN_ADD dos checklists somente se tiver o campo ADMIN com TRUE;
+- Método ADMIN_EDIT dos checklists somente se tiver o campo ADMIN com TRUE;
+- Método ADMIN_VIEW dos checklists somente se tiver o campo ADMIN com TRUE;
+- Método ADMIN_DELETE dos checklists somente se tiver o campo ADMIN com TRUE.
+
+Versão 1.5
+- Mudanças do layout do MENU e PAINEL;
+- Mudança no Estilização do sistema;
+- Evitando que usuário relate mais de uma vez por dia.

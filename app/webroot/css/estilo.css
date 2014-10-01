@@ -1,0 +1,891 @@
+body
+{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+/** Layout Tela de Login **/
+div.TelaLogin
+{
+	top: 0;
+	width: 400px;
+	margin-top: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+	border: solid 1px #039;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	height: 200px;
+}
+div.TelaLogin h2
+{
+	font-size: 22px;
+	font-weight: bolder;
+	margin:0;
+	margin-left: 10px;
+	padding: 0;
+}
+div.TelaLogin img
+{
+	margin-left:33%;
+	margin-right:33%;
+}
+div.TelaLogin p
+{
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+#UserLoginForm .caixa div label
+{
+	margin-left: 0;
+	margin-top: 5px;
+	width: 100px;
+	text-align:left;
+}
+.caixa
+{
+	margin-left: 50px;
+}
+.caixa .input
+{
+	margin-bottom: 10px;
+}
+.caixa div input#UserUsername,
+.caixa div input#UserPassword
+{
+	padding:5px;
+	width:150px;
+	padding:5px;
+	border:solid 1px #039;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px rgba(0,51,153,.5);
+}
+.caixa div input#UserUsername
+{
+	margin-left: 10px;
+}
+.caixa div input#UserPassword
+{
+	margin-left: 18px;
+}
+.caixa div input#UserUsername:hover,
+.caixa div input#UserUsername:focus,
+.caixa div input#UserUsername:active,
+.caixa div input#UserPassword:hover,
+.caixa div input#UserPassword:focus,
+.caixa div input#UserPassword:active
+{
+	border-color:#08E;
+}
+.TelaLogin .submit
+{
+	margin-top: 10px;
+}
+.TelaLogin .submit input[type=submit]
+{
+	margin-left:180px;
+	width: 57px;
+	height:auto;
+	padding:2px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	color: #FFF;
+	border:thick 1px;
+	background-color:#039;
+	transition:all .2s linear;
+}
+/** Layout Header **/
+header
+{
+	top: 0;
+	left: 0;
+	border: solid 5px #FFFFFF;
+	margin-left: 1px;
+	position: fixed;
+	height: 70px;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+header a:hover,
+header a:visited,
+header a:link,
+header a:active
+{
+	text-decoration: none;
+	font-weight: bolder;
+	color: #23237d;
+}
+/** Layout Menu **/
+header nav 
+{
+	position: 0;
+}
+.menu
+{
+	width: 100%;
+	list-style: none;
+	float: left;
+	padding: 0;
+	text-align: center;
+	font-weight: bolder;
+}
+.menu li
+{
+	width: 150px;
+	border: solid 1px #C0C0C0;
+	position: relative;
+	float: left;
+	display: block;
+	padding: 5px 10px;
+	color: #23237d;
+}
+.menu li:hover
+{
+	background: #003399;
+	color: #FFFFFF;
+	-moz-box-shadow: 0 3px 10px 0 #CCCCCC;
+	-webkit-box-shadow: 0 3px 10px 0 #CCCCCC;
+	box-shadow: 0 3px 10px 0 #CCCCCC;
+	text-shadow: 0 0 5px #FFFFFF;
+}
+.menu li ul
+{
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	padding: 0;
+	display: none;
+}
+.menu li:hover ul,
+.menu li.over ul
+{
+	display: block;
+	background-color: #FFF;
+}
+.menu li ul li
+{
+	border: 1px solid #C0C0C0;
+	display: block;
+}
+.menu li ul li:hover 
+{
+	background: #003399;
+	color: #FFFFFF;
+	-moz-box-shadow: 0 3px 10px 0 #CCCCCC;
+	-webkit-box-shadow: 0 3px 10px 0 #CCCCCC;
+	box-shadow: 0 3px 10px 0 #CCCCCC;
+	text-shadow: 0 0 5px #FFFFFF;
+}
+.menu li ul li:hover a
+{
+	color: #FFFFFF;
+}
+/** Layout Flash Message **/
+div.message {
+	clear: both;
+	color: #fff;
+	font-size: 140%;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	padding: 5px;
+}
+div .success,
+div .message,
+div .notice,
+div p.error,
+div .error-message 
+{
+	width: 50%;
+	background: #ffcc00;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -ms-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#E6B800));
+	background-image: -webkit-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -o-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: linear-gradient(top, #ffcc00, #E6B800);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 18px;
+	padding: 7px 14px;
+	color: #404040;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+div .success,
+div .message,
+div p.error,
+div .error-message {
+	clear: both;
+	color: #fff;
+	background: #c43c35;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
+	background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: linear-gradient(top, #ee5f5b, #c43c35);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+div .success {
+	clear: both;
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background: #3B8230;
+	background-repeat: repeat-x;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#76BF6B), to(#3B8230));
+	background-image: -webkit-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -moz-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -ms-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -o-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: linear-gradient(top, #76BF6B, #3B8230);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	font-weight: bolder;
+}
+#content p.error a
+{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bolder;
+}
+div p.error {
+	font-size: 120%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+div p.error em {
+	font-weight: normal;
+	line-height: 140%;
+}
+div .notice {
+	color: #000;
+	display: block;
+	font-size: 120%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+div .success {
+	color: #fff;
+}
+/** Layout Container **/
+div#container
+{
+	margin-top: 80px;
+}
+/** Container **/
+/** Content **/
+/*------------------------------------------------------------------*/
+/** Titulo View **/
+#container #content div h2
+{
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+	width: 35%;
+	background:#fff;
+	color: #23237d;
+	font-size: 190%;
+}
+/*------------------------------------------------------------------*/
+/** Tabela **/
+#container #content div table
+{
+	border-right:0;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+	border-top: solid 1px #555555;
+	border-bottom: solid 1px #555555;
+	border-left: solid 1px #555555;
+}
+#container #content table th
+{
+	border:0;
+	text-align: center;
+	padding:4px;
+}
+#container #content table th a.asc:after
+{
+	content: ' ⇣';
+}
+#container #content table th a.desc:after 
+{
+	content: ' ⇡';
+}
+#container #content table th a
+{
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+#container #content table tr td a
+{
+	text-decoration: none;
+	font-weight: bolder;
+}
+#container #content table thead tr th
+{
+	border-left: solid 1px #555555;
+	border-bottom: solid 1px #555555;
+}
+#container #content table thead tr th:first-child
+{
+	border-left: none;
+}
+#container #content table thead tr th:last-child
+{
+	border-right: solid 1px #555555;
+}
+#container #content table tr td a,
+#container #content table tr td a:visited,
+#container #content table tr td a:active,
+#container #content table tr td a:hover,
+#container #content table tr td a:link,
+#container #content table th a:visited,
+#container #content table th a:active,
+#container #content table th a:hover,
+#container #content table th a:link
+{
+	color: #23237d;
+}
+#container #content 
+#container #content table tr td 
+{
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom:1px solid #ddd;
+}
+#container #content table tr:nth-child(even) 
+{
+	background: #f9f9f9;
+}
+#container #content table tr
+{
+	height: 40px;
+}
+#container #content table tr td 
+{
+	text-align: center;
+	white-space: nowrap;
+	border-left: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+#container #content table tbody tr
+{
+	border-left: solid 1px #555555;
+}
+#container #content table tr td:last-child
+{
+	border-right: 1px solid #555555;
+}
+#container #content table td.actions a 
+{
+	padding: 4px 8px;
+	background: #dcdcdc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#dcdcdc));
+	background-image: -webkit-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -moz-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -ms-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -o-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: linear-gradient(top, #fefefe, #dcdcdc);
+	color:#333;
+	border:1px solid #bbb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-decoration: none;
+	text-shadow: #fff 0px 1px 0px;
+	min-width: 0;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-user-select: none;
+	user-select: none;
+}
+#container #content table td.actions a:active 
+{
+	background: #eee;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#dfdfdf), to(#eee));
+	background-image: -webkit-linear-gradient(top, #dfdfdf, #eee);
+	background-image: -moz-linear-gradient(top, #dfdfdf, #eee);
+	background-image: -ms-linear-gradient(top, #dfdfdf, #eee);
+	background-image: -o-linear-gradient(top, #dfdfdf, #eee);
+	background-image: linear-gradient(top, #dfdfdf, #eee);
+	text-shadow: #eee 0px 1px 0px;
+	-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3);
+	border-color: #aaa;
+	text-decoration: none;
+}
+#container #content table td.actions a:hover
+{
+	background: #ededed;
+	border-color: #acacac;
+	text-decoration: none;
+}
+#container #content table tbody tr td div label:after
+{
+	content: none;
+}
+#container #content div form table tbody tr td div select,
+#container #content div form table tbody tr td div label
+{
+	padding: 0;
+	margin: 0;
+}
+#container #content table tbody tr td div textarea
+{
+	vertical-align: text-top;
+    resize: none;
+    border: #000 solid 1px;
+}
+/** Related **/
+#container #content div.related
+{
+	clear: both;
+}
+#container #content div.related h3
+{
+	height: auto;
+}
+#container #content div.related table
+{
+	border: solid 1px #555555;
+}
+#container #content div..related table tbody tr:first-child
+{
+	width: 100%;
+}
+#container #content div.related table tbody tr:first-child th
+{
+	padding: 4px;
+	border: solid 1px #555555;
+}
+#container #content div.related div.actions ul
+{
+	list-style: none;
+}
+#container #content div.related div.actions ul a,
+#container #content div.related div.actions ul a:link,
+#container #content div.related div.actions ul a:hover,
+#container #content div.related div.actions ul a:active,
+#container #content div.related div.actions ul a:visited
+{
+	color: #23237d;
+	font-weight: bolder;
+	text-decoration: none;
+}
+#container #content div.related div.actions ul a
+{
+	padding: 4px 8px;
+	background: -moz-linear-gradient(center top , #FEFEFE, #DCDCDC) repeat scroll 0% 0% #DCDCDC;
+	border: 1px solid #BBB;
+	border-radius: 4px;
+	text-shadow: 0px 1px 0px #FFF;
+	min-width: 0px;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+#container #content div.related div.actions ul a:hover
+{
+	background: none repeat scroll 0% 0% #EDEDED;
+	border-color: #ACACAC;
+}
+#container #content div.related div.actions ul a:active
+{
+	background: -moz-linear-gradient(center top , #DFDFDF, #EEE) repeat scroll 0% 0% #EEE;
+	text-shadow: 0px 1px 0px #EEE;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3) inset;
+	border-color: #AAA;
+}
+#container #content table tr.PNV
+{
+	color: #fff;
+	background: #c43c35;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
+	background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: linear-gradient(top, #ee5f5b, #c43c35);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	font-weight: bolder;
+}
+td#link a
+{
+	text-decoration: none;
+	color: #23237d;
+	font-weight: bolder;
+}
+td#link:hover,
+td#link:active
+{
+	background-color: #003399;
+	text-decoration: none;
+	font-weight: bolder;
+}
+td#link:hover a:hover,
+td#link:active a:active,
+#container #content div table tbody tr td#link:hover a,
+#container #content div table tbody tr td#link:active a
+{
+	color: #FFFFFF;
+}
+/*------------------------------------------------------------------*/
+/** Form **/
+#UserAdminAddForm,
+#BlockAdminAddForm,
+#ClassroomAdminAddForm,
+#ClassroomAdminEditForm,
+#BlockAdminEditForm,
+#UserAdminEditForm,
+#ChecklistAdminEditForm,
+#UserAdminChangePasswordForm,
+#UserChangePasswordForm
+{
+	border: solid 1px #555555;
+	padding-bottom: 5px;
+}
+#UserAdminAddForm div label,
+#BlockAdminAddForm div label,
+#ClassroomAdminAddForm div label,
+#ClassroomAdminEditForm div label,
+#BlockAdminEditForm div label,
+#UserAdminEditForm div label,
+#ChecklistAdminEditForm div label,
+#UserAdminChangePasswordForm div label,
+#UserChangePasswordForm div label
+{
+	margin-top: 5px;
+	margin-left: 5px;
+	border: none 2px;
+	padding: 0px;
+	font-size: 110%;
+	width: 200px;
+	left: 0px;
+	float: left;
+}
+#UserAdminAddForm div input,
+#BlockAdminAddForm div input,
+#ClassroomAdminAddForm div input,
+#ClassroomAdminEditForm div input,
+#BlockAdminEditForm div input,
+#UserAdminEditForm div input,
+#ChecklistAdminEditForm div input,
+#UserAdminChangePasswordForm div input,
+#UserChangePasswordForm div input
+{
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#UserAdminAddForm div label:after,
+#BlockAdminAddForm div label:after,
+#ClassroomAdminAddForm div label:after,
+#ClassroomAdminEditForm div label:after,
+#BlockAdminEditForm div label:after,
+#UserAdminEditForm div label:after,
+#ChecklistAdminEditForm div label:after,
+#UserAdminChangePasswordForm div label:after,
+#UserChangePasswordForm div label:after
+{
+	content: ':';
+	display:inline;
+}
+#UserAdminAddForm .required label:after,
+#BlockAdminAddForm .required label:after,
+#ClassroomAdminAddForm .required label:after,
+#ClassroomAdminEditForm .required label:after,
+#BlockAdminEditForm .required label:after,
+#UserAdminEditForm .required label:after,
+#ChecklistAdminEditForm .required label:after,
+#UserAdminChangePasswordForm label:after,
+#UserChangePasswordForm label:after
+{
+	color: #e32;
+	content: ': *';
+	display:inline;
+}
+#UserAdminAddForm .required,
+#BlockAdminAddForm .required,
+#ClassroomAdminAddForm .required,
+#ClassroomAdminEditForm .required,
+#BlockAdminEditForm .required,
+#UserAdminEditForm .required,
+#ChecklistAdminEditForm .required,
+#UserAdminChangePasswordForm .required,
+#UserChangePasswordForm .required
+{
+	font-weight: bold;
+}
+#ChecklistReportForm .submit input[type=submit],
+#UserAdminAddForm .submit input[type=submit],
+#BlockAdminAddForm .submit input[type=submit],
+#ClassroomAdminAddForm .submit input[type=submit],
+#ClassroomAdminEditForm .submit input[type=submit],
+#BlockAdminEditForm .submit input[type=submit],
+#UserAdminEditForm .submit input[type=submit],
+#ChecklistAdminEditForm .submit input[type=submit],
+#UserAdminChangePasswordForm .submit input[type=submit],
+#UserChangePasswordForm .submit input[type=submit]
+{
+	margin-left:45.97%;
+	width: 80px;
+	height:auto;
+	padding:2px;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	color: #FFF;
+	border:thick 1px;
+	background-color:#039;
+	transition:all .2s linear;
+}
+#ChecklistReportForm .submit input[type=submit]:hover,
+#UserAdminAddForm .submit input[type=submit]:hover,
+#BlockAdminAddForm .submit input[type=submit]:hover,
+#ClassroomAdminAddForm .submit input[type=submit]:hover,
+#ClassroomAdminEditForm .submit input[type=submit]:hover,
+#BlockAdminEditForm .submit input[type=submit]:hover,
+#UserAdminEditForm .submit input[type=submit]:hover,
+#ChecklistAdminEditForm .submit input[type=submit]:hover,
+#UserAdminChangePasswordForm .submit input[type=submit]:hover,
+#UserChangePasswordForm .submit input[type=submit]:hover
+{
+	background-color: #FFF;
+	color: #039;
+}
+#UserAdminAddForm select,
+#BlockAdminAddForm select,
+#ClassroomAdminAddForm select,
+#ClassroomAdminEditForm select,
+#BlockAdminEditForm select,
+#UserAdminEditForm select,
+#ChecklistAdminEditForm select,
+#UserAdminChangePasswordForm select,
+#UserChangePasswordForm select
+{
+	margin-top: 3px;
+	margin-left: 5px;
+	padding: 1px;
+	width: 148px;
+}
+#UserAdminAddForm div,
+#BlockAdminAddForm div,
+#ClassroomAdminAddForm div,
+#ClassroomAdminEditForm div,
+#BlockAdminEditForm div,
+#UserAdminEditForm div,
+#ChecklistAdminEditForm div,
+#UserAdminChangePasswordForm div,
+#UserChangePasswordForm div
+{
+	height: 27px;
+	width: 100%;
+}
+#UserAdminAddForm input[type=checkbox],
+#BlockAdminAddForm input[type=checkbox],
+#ClassroomAdminAddForm input[type=checkbox],
+#ClassroomAdminEditForm input[type=checkbox],
+#BlockAdminEditForm input[type=checkbox],
+#UserAdminEditForm input[type=checkbox],
+#ChecklistAdminEditForm input[type=checkbox],
+#UserAdminChangePasswordForm input[type=checkbox],
+#UserChangePasswordForm input[type=checkbox]
+{
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: 1px;
+	border: 2px;	
+}
+/*------------------------------------------------------------------*/
+/** View das Informações **/
+dl 
+{
+	line-height: 2em;
+	margin: 0em 0em;
+	width: 100%;
+	border: solid 1px #555555;
+}
+dl dd:nth-child(4n+2),
+dl dt:nth-child(4n+1) 
+{
+	background: #f4f4f4;
+}
+dt 
+{
+	font-weight: bold;
+	padding-left: 4px;
+	vertical-align: top;
+	width: 10em;
+}
+dt:after
+{
+	content: ':';
+}
+dd 
+{
+	margin-left: 10em;
+	margin-top: -2em;
+	vertical-align: top;
+}
+dd a
+{
+	text-decoration: none;
+	color: #23237d;
+	font-weight: bolder;
+}
+dd a:hover,
+dd a:active
+{
+	padding: 3px;
+	background-color: #003399;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+/*------------------------------------------------------------------*/
+/** Mensagem de acesso indevido **/
+#container #content h3
+{
+	width: 50%;	
+	margin-bottom: 18px;
+	padding: 7px 14px;
+	color: #FFFFFF;
+	background: #c43c35;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
+	background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: linear-gradient(top, #ee5f5b, #c43c35);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+/*------------------------------------------------------------------*/
+/** Paginate **/
+.paging 
+{
+	background:#fff;
+	color: #ccc;
+	margin-top: 1em;
+	clear:both;
+}
+.paging .current,
+.paging .disabled,
+.paging a 
+{
+	text-decoration: none;
+	padding: 5px 8px;
+	display: inline-block
+}
+.paging > span 
+{
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-left: 0;
+}
+.paging > span:hover 
+{
+	background: #efefef;
+}
+.paging .prev 
+{
+	border-left: 1px solid #ccc;
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+.paging .next 
+{
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+}
+.paging .disabled 
+{
+	color: #ddd;
+}
+.paging .disabled:hover 
+{
+	background: transparent;
+}
+.paging .current 
+{
+	background: #efefef;
+	color: #c73e14;
+}
+/*------------------------------------------------------------------*/
+/******************Fim do Container/Content**************************/
+/*------------------------------------------------------------------*/
+/** Layout Footer **/
+footer
+{
+	bottom:0;
+	width:50%;
+	margin-top:50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+footer p
+{
+	padding:0;
+	margin:0;
+}
+/** Debugging **//
+pre 
+{
+	color: #000;
+	background: #f0f0f0;
+	padding: 15px;
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+/** Elements **/
+#url-rewriting-warning {
+	display:none;
+}
+/* SQL log */
+.cake-sql-log {
+	background: #fff;
+}
+.cake-sql-log tr
+{
+	border: solid 1px #000;
+}
+.cake-sql-log td {
+	padding: 4px 8px;
+	text-align: left;
+	font-family: Monaco, Consolas, "Courier New", monospaced;
+}
+.cake-sql-log caption {
+	color:#fff;
+}

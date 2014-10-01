@@ -1,0 +1,674 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-09-30 14:37-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AppController.php:81
+msgid "User or password invalid"
+msgstr "Usuário ou senha inválida"
+
+#: Controller/AppController.php:82
+msgid "You need to login to access this page"
+msgstr "Você precisa fazer o login para acessar esta página"
+
+#: Controller/BlocksController.php:26
+msgid "List Blocks."
+msgstr "Listar Blocos."
+
+#: Controller/BlocksController.php:36;66;101;146;184
+#: Controller/ChecklistsController.php:221;262;309;349
+#: Controller/ClassroomsController.php:35;90;127;172;210
+#: Controller/UsersController.php:187;242;278;324;361
+msgid "You don't have permission to access this page"
+msgstr "Você não tem permissão para acessar esta página"
+
+#: Controller/BlocksController.php:52
+msgid "View Block."
+msgstr "Ver Blocos."
+
+#: Controller/BlocksController.php:58;123;168
+msgid "Invalid block"
+msgstr "Bloco inválido"
+
+#: Controller/BlocksController.php:80
+msgid "Add Block."
+msgstr "Adicionar Bloco."
+
+#: Controller/BlocksController.php:89;129
+msgid "The block has been saved."
+msgstr "O bloco foi salvo."
+
+#: Controller/BlocksController.php:94;134
+msgid "The block could not be saved. Please, try again."
+msgstr "O bloco não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/BlocksController.php:117
+msgid "Edit Block."
+msgstr "Editar Bloco."
+
+#: Controller/BlocksController.php:173
+msgid "The block has been deleted."
+msgstr "O Bloco foi excluído."
+
+#: Controller/BlocksController.php:177
+msgid "The block could not be deleted. Please, try again."
+msgstr "O Bloco não pôde ser excluído. Por favor, tente novamente."
+
+#: Controller/ChecklistsController.php:143;245;289
+msgid "The checklist has been saved."
+msgstr "O Checklist foi salvo."
+
+#: Controller/ChecklistsController.php:175;250;294
+msgid "The checklist could not be saved. Please, try again."
+msgstr "A Checklist não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/ChecklistsController.php:189
+msgid "You've done a report today."
+msgstr "Você já fez um Relatório hoje."
+
+#: Controller/ChecklistsController.php:207;283;333
+msgid "Invalid checklist"
+msgstr "Checklist inválido"
+
+#: Controller/ChecklistsController.php:338
+msgid "The checklist has been deleted."
+msgstr "O Checklist foi excluído."
+
+#: Controller/ChecklistsController.php:342
+msgid "The checklist could not be deleted. Please, try again."
+msgstr "O Checklist não pôde ser excluído. Por favor, tente novamente."
+
+#: Controller/ClassroomsController.php:25
+msgid "List Classrooms."
+msgstr "Listar Salas de Aula."
+
+#: Controller/ClassroomsController.php:51
+msgid "View Classroom."
+msgstr "Ver Sala de Aula."
+
+#: Controller/ClassroomsController.php:57;149;194
+msgid "Invalid classroom"
+msgstr "Sala de Aula inválido"
+
+#: Controller/ClassroomsController.php:104
+msgid "Add Classrooms."
+msgstr "Adicionar Sala de Aula."
+
+#: Controller/ClassroomsController.php:113;155
+msgid "The classroom has been saved."
+msgstr "A Sala de Aula foi salva."
+
+#: Controller/ClassroomsController.php:118;160
+msgid "The classroom could not be saved. Please, try again."
+msgstr "A Sala de Aula não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/ClassroomsController.php:143
+msgid "Edit Classrooms."
+msgstr "Editar Sala de Aula."
+
+#: Controller/ClassroomsController.php:199
+msgid "The classroom has been deleted."
+msgstr "A Sala de Aula foi excluída."
+
+#: Controller/ClassroomsController.php:203
+msgid "The classroom could not be deleted. Please, try again."
+msgstr "A Sala de Aula não pôde ser excluída. Por favor, tente novamente."
+
+#: Controller/UsersController.php:31
+msgid "View your information."
+msgstr "Ver suas informações."
+
+#: Controller/UsersController.php:33;208;300;346
+msgid "Invalid user"
+msgstr "Usuário inválido"
+
+#: Controller/UsersController.php:73
+msgid "Change My Password."
+msgstr "Alterar minha senha."
+
+#: Controller/UsersController.php:77;123
+msgid "Invalid user!"
+msgstr "Usuário inválido!"
+
+#: Controller/UsersController.php:85;140
+msgid "You don't have permission to access this page!"
+msgstr "Você não tem permissão para acessar esta página!"
+
+#: Controller/UsersController.php:95
+msgid "The password has been changed."
+msgstr "A senha foi alterada."
+
+#: Controller/UsersController.php:100;157
+msgid "The password could not be changed. Please, try again."
+msgstr "A senha não pode ser alterada. Por favor, tente novamente."
+
+#: Controller/UsersController.php:119
+msgid "Change Password."
+msgstr "Alterar a senha."
+
+#: Controller/UsersController.php:150
+msgid "The password of the user %s has been changed successfully."
+msgstr "A senha do usuário %s foi alterada com sucesso."
+
+#: Controller/UsersController.php:175
+msgid "List Users."
+msgstr "Listar Usuários."
+
+#: Controller/UsersController.php:203
+msgid "View information."
+msgstr "Ver informações."
+
+#: Controller/UsersController.php:256
+msgid "Add User."
+msgstr "Adicionar usuário."
+
+#: Controller/UsersController.php:265;306
+msgid "The user has been saved."
+msgstr "O usuário foi salvo."
+
+#: Controller/UsersController.php:270;311
+msgid "The user could not be saved. Please, try again."
+msgstr "O usuário não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/UsersController.php:294
+msgid "Edit User."
+msgstr "Editar usuário."
+
+#: Controller/UsersController.php:351
+msgid "The user has been deleted."
+msgstr "O usuário foi excluído."
+
+#: Controller/UsersController.php:355
+msgid "The user could not be deleted. Please, try again."
+msgstr "O usuário não pode ser excluído. Por favor, tente novamente."
+
+#: Controller/UsersController.php:375
+msgid "Log in"
+msgstr "Logar"
+
+#: Controller/UsersController.php:396
+msgid "You signed out successfully."
+msgstr "Você desconectou com sucesso."
+
+#: View/Blocks/admin_add.ctp:2
+msgid "Admin Add Block"
+msgstr "Adicionar Bloco"
+
+#: View/Blocks/admin_add.ctp:5
+#: View/Blocks/admin_edit.ctp:6
+#: View/Checklists/admin_add.ctp:26
+#: View/Checklists/admin_edit.ctp:26
+#: View/Classrooms/admin_add.ctp:8
+#: View/Classrooms/admin_edit.ctp:9
+#: View/Users/admin_add.ctp:19
+#: View/Users/admin_edit.ctp:12
+msgid "Submit"
+msgstr "Enviar"
+
+#: View/Blocks/admin_edit.ctp:2
+msgid "Admin Edit Block"
+msgstr "Editar bloco"
+
+#: View/Blocks/admin_index.ctp:2
+#: View/Blocks/index.ctp:2
+msgid "Blocks"
+msgstr "Blocos"
+
+#: View/Blocks/admin_index.ctp:10
+#: View/Blocks/admin_view.ctp:34;60
+#: View/Classrooms/admin_index.ctp:12
+#: View/Classrooms/admin_view.ctp:42
+#: View/Users/admin_index.ctp:12
+#: View/Users/admin_view.ctp:78
+msgid "Actions"
+msgstr "Ações"
+
+#: View/Blocks/admin_index.ctp:21
+#: View/Blocks/admin_view.ctp:42;77
+#: View/Classrooms/admin_index.ctp:26
+#: View/Classrooms/admin_view.ctp:70
+#: View/Users/admin_index.ctp:39
+#: View/Users/admin_view.ctp:105
+msgid "View"
+msgstr "Visualizar"
+
+#: View/Blocks/admin_index.ctp:22
+#: View/Blocks/admin_view.ctp:43;78
+#: View/Classrooms/admin_index.ctp:27
+#: View/Classrooms/admin_view.ctp:71
+#: View/Users/admin_index.ctp:41
+#: View/Users/admin_view.ctp:110
+msgid "Edit"
+msgstr "Editar"
+
+#: View/Blocks/admin_index.ctp:23
+#: View/Blocks/admin_view.ctp:44;79
+#: View/Classrooms/admin_index.ctp:28
+#: View/Classrooms/admin_view.ctp:72
+#: View/Users/admin_index.ctp:49
+#: View/Users/admin_view.ctp:115
+msgid "Delete"
+msgstr "Excluir"
+
+#: View/Blocks/admin_index.ctp:23
+#: View/Blocks/admin_view.ctp:44;79
+#: View/Classrooms/admin_index.ctp:28
+#: View/Classrooms/admin_view.ctp:72
+#: View/Users/admin_view.ctp:119
+msgid "Are you sure you want to delete # %s?"
+msgstr "Tem certeza de que deseja excluir # %s ?"
+
+#: View/Blocks/admin_index.ctp:32
+#: View/Blocks/index.ctp:26
+#: View/Classrooms/admin_index.ctp:37
+#: View/Users/admin_index.ctp:58
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Página {:page} de {:pages}, mostrando {:current} registros de um total de {:count}, começando no registro {:start} e terminando em {:end}."
+
+#: View/Blocks/admin_index.ctp:37
+#: View/Blocks/index.ctp:31
+#: View/Classrooms/admin_index.ctp:42
+#: View/Users/admin_index.ctp:63
+msgid "previous"
+msgstr "anterior"
+
+#: View/Blocks/admin_index.ctp:39
+#: View/Blocks/index.ctp:33
+#: View/Classrooms/admin_index.ctp:44
+#: View/Users/admin_index.ctp:65
+msgid "next"
+msgstr "próximo"
+
+#: View/Blocks/admin_view.ctp:4
+#: View/Checklists/admin_view.ctp:4
+#: View/Classrooms/admin_view.ctp:4
+#: View/Users/admin_view.ctp:4
+#: View/Users/view.ctp:5
+msgid "Id"
+msgstr "ID"
+
+#: View/Blocks/admin_view.ctp:9
+msgid "Block Name"
+msgstr "Nome do Bloco"
+
+#: View/Blocks/admin_view.ctp:14;32
+#: View/Checklists/admin_view.ctp:51
+#: View/Checklists/index.ctp:8
+#: View/Checklists/myindex.ctp:6
+#: View/Classrooms/admin_view.ctp:19;40
+#: View/Users/admin_view.ctp:54;74
+#: View/Users/view.ctp:50;71
+msgid "Created"
+msgstr "Criado em"
+
+#: View/Blocks/admin_view.ctp:19;33
+#: View/Checklists/admin_view.ctp:56
+#: View/Classrooms/admin_view.ctp:24;41
+#: View/Users/admin_view.ctp:59
+#: View/Users/view.ctp:55
+msgid "Modified"
+msgstr "Modificado em"
+
+#: View/Blocks/admin_view.ctp:27
+msgid "Related Classrooms"
+msgstr "Salas de Aula relacionadas"
+
+#: View/Blocks/admin_view.ctp:31
+#: View/Classrooms/admin_add.ctp:5
+#: View/Classrooms/admin_edit.ctp:6
+#: View/Users/admin_view.ctp:73
+#: View/Users/view.ctp:70
+msgid "Classroom Name"
+msgstr "Nome da Sala de Aula"
+
+#: View/Blocks/admin_view.ctp:52
+msgid "Related Users"
+msgstr "Usuários relacionados"
+
+#: View/Blocks/admin_view.ctp:56
+#: View/Users/admin_add.ctp:4
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#: View/Blocks/admin_view.ctp:57
+#: View/Checklists/index.ctp:6
+#: View/Classrooms/admin_view.ctp:39
+#: View/Users/admin_view.ctp:14
+#: View/Users/view.ctp:15
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: View/Blocks/admin_view.ctp:58
+#: View/Checklists/index.ctp:7
+#: View/Users/admin_view.ctp:27
+#: View/Users/view.ctp:28
+msgid "Shift"
+msgstr "Turno"
+
+#: View/Blocks/admin_view.ctp:59
+#: View/Users/admin_view.ctp:32
+#: View/Users/view.ctp:33
+msgid "Admin"
+msgstr "Administrador"
+
+#: View/Blocks/admin_view.ctp:70
+#: View/Users/admin_index.ctp:29
+#: View/Users/admin_view.ctp:37
+#: View/Users/view.ctp:37
+msgid "No"
+msgstr "Não"
+
+#: View/Blocks/admin_view.ctp:74
+#: View/Users/admin_index.ctp:25
+#: View/Users/admin_view.ctp:41
+#: View/Users/view.ctp:41
+msgid "Yes"
+msgstr "Sim"
+
+#: View/Blocks/admin_view.ctp:84
+msgid "There isn't related users."
+msgstr "Não há usuários relacionados."
+
+#: View/Checklists/admin_add.ctp:2
+msgid "Add Checklist"
+msgstr "Adicionar Checklist"
+
+#: View/Checklists/admin_add.ctp:8;18
+#: View/Checklists/admin_edit.ctp:8;18
+#: View/Checklists/report.ctp:38;55
+#: View/Users/admin_add.ctp:12
+msgid "Select an option"
+msgstr "Selecione uma opção"
+
+#: View/Checklists/admin_edit.ctp:2
+msgid "Edit Checklist"
+msgstr "Editar Checklist"
+
+#: View/Checklists/admin_view.ctp:2
+msgid "Checklist"
+msgstr "Checklist"
+
+#: View/Checklists/admin_view.ctp:9
+#: View/Checklists/index.ctp:10
+#: View/Checklists/myindex.ctp:8
+#: View/Checklists/report.ctp:12
+#: View/Classrooms/admin_view.ctp:36
+#: View/Users/admin_view.ctp:75
+#: View/Users/view.ctp:72
+msgid "Problem"
+msgstr "Problema"
+
+#: View/Checklists/admin_view.ctp:14
+#: View/Checklists/index.ctp:11
+#: View/Checklists/myindex.ctp:9
+#: View/Checklists/report.ctp:13
+#: View/Classrooms/admin_view.ctp:37
+#: View/Users/admin_view.ctp:76
+#: View/Users/view.ctp:73
+msgid "Status"
+msgstr "Status"
+
+#: View/Checklists/admin_view.ctp:19
+#: View/Checklists/index.ctp:12
+#: View/Checklists/myindex.ctp:10
+#: View/Checklists/report.ctp:14
+#: View/Classrooms/admin_view.ctp:38
+#: View/Users/admin_view.ctp:77
+#: View/Users/view.ctp:74
+msgid "Observation"
+msgstr "Observação"
+
+#: View/Checklists/admin_view.ctp:24
+#: View/Classrooms/admin_view.ctp:9
+#: View/Users/admin_view.ctp:9
+#: View/Users/view.ctp:10
+msgid "Name"
+msgstr "Nome"
+
+#: View/Checklists/admin_view.ctp:33
+#: View/Checklists/index.ctp:9
+#: View/Checklists/myindex.ctp:7
+#: View/Checklists/report.ctp:11
+#: View/Classrooms/admin_view.ctp:2
+msgid "Classroom"
+msgstr "Sala de Aula"
+
+#: View/Checklists/admin_view.ctp:42
+#: View/Classrooms/admin_view.ctp:14
+#: View/Elements/menu.ctp:46;86
+#: View/Users/admin_view.ctp:45
+#: View/Users/view.ctp:45;69
+msgid "Block"
+msgstr "Bloco"
+
+#: View/Checklists/index.ctp:2
+#: View/Elements/menu.ctp:3
+msgid "Checklists"
+msgstr "Checklist"
+
+#: View/Checklists/myindex.ctp:2
+#: View/Elements/menu.ctp:11
+msgid "My Checklists"
+msgstr "Meu Checklist"
+
+#: View/Checklists/report.ctp:3
+#: View/Elements/menu.ctp:17
+msgid "Report Checklists"
+msgstr "Reportar Checklist"
+
+#: View/Checklists/report.ctp:81
+msgid "Report"
+msgstr "Reportar"
+
+#: View/Checklists/report.ctp:83
+msgid "No classrooms to report."
+msgstr "Não há salas de aula para relatar."
+
+#: View/Classrooms/admin_add.ctp:2
+msgid "Add Classroom"
+msgstr "Adicionar Sala de Aula"
+
+#: View/Classrooms/admin_edit.ctp:2
+msgid "Edit Classroom"
+msgstr "Editar Sala de Aula"
+
+#: View/Classrooms/admin_index.ctp:2
+#: View/Elements/menu.ctp:64
+msgid "Classrooms"
+msgstr "Salas de Aula"
+
+#: View/Classrooms/admin_index.ctp:46
+#: View/Classrooms/admin_view.ctp:78
+msgid "There isn't checklist related."
+msgstr "Não há checklist relacionados."
+
+#: View/Classrooms/admin_view.ctp:32
+#: View/Users/admin_view.ctp:67
+#: View/Users/view.ctp:63
+msgid "Related Checklists"
+msgstr "Checklists relacionados"
+
+#: View/Elements/menu.ctp:5
+msgid "List Checklists"
+msgstr "Listar Checklists"
+
+#: View/Elements/menu.ctp:28
+#: View/Users/admin_index.ctp:2
+msgid "Users"
+msgstr "Usuários"
+
+#: View/Elements/menu.ctp:31
+msgid "Add Users"
+msgstr "Adicionar Usuário"
+
+#: View/Elements/menu.ctp:38
+msgid "List Users"
+msgstr "Listar Usuários"
+
+#: View/Elements/menu.ctp:49
+msgid "Add Block"
+msgstr "Adicionar Bloco"
+
+#: View/Elements/menu.ctp:56;89
+msgid "List Block"
+msgstr "Listar Blocos"
+
+#: View/Elements/menu.ctp:67
+msgid "Add Classrooms"
+msgstr "Adicionar Sala de Aula"
+
+#: View/Elements/menu.ctp:74
+msgid "List Classrooms"
+msgstr "Listar Sala de Aula"
+
+#: View/Elements/painel.ctp:8
+msgid "Welcome "
+msgstr "Bem Vindo "
+
+#: View/Elements/painel.ctp:13
+msgid "Log out"
+msgstr "Sair"
+
+#: View/Errors/1fatal_error.ctp:20
+msgid "Fatal Error."
+msgstr "Erro Fatal."
+
+#: View/Errors/1fatal_error.ctp:26
+#: View/Errors/error400.ctp:24
+msgid "Fatal error in the checklist system."
+msgstr "Erro fatal no Sistema de Checklist."
+
+#: View/Errors/1fatal_error.ctp:27
+#: View/Errors/error400.ctp:25
+msgid "Error accessing the link:"
+msgstr "Erro ao acessar o link:"
+
+#: View/Errors/1fatal_error.ctp:28
+#: View/Errors/error400.ctp:26
+msgid "Click here to notify the administrator about this problem."
+msgstr "Clique aqui para notificar o administrador sobre este problema."
+
+#: View/Errors/missing_action.ctp:20
+#: View/Errors/missing_controller.ctp:20
+msgid "The page you are accessing doesn't exist."
+msgstr "A página que você está acessando não existe."
+
+#: View/Layouts/default.ctp:16
+msgid "Development"
+msgstr "Desenvolvimento"
+
+#: View/Users/admin_add.ctp:2
+msgid "Admin Add User"
+msgstr "Adicionar Usuário"
+
+#: View/Users/admin_add.ctp:8
+#: View/Users/admin_change_password.ctp:7
+#: View/Users/change_password.ctp:7
+msgid "Confirm password"
+msgstr "Confirmar Senha"
+
+#: View/Users/admin_add.ctp:13
+msgid "Morning"
+msgstr "Tarde"
+
+#: View/Users/admin_add.ctp:14
+msgid "Night"
+msgstr "Noite"
+
+#: View/Users/admin_change_password.ctp:2
+msgid "Change the User Password: "
+msgstr "Alterar a Senha do Usuário: "
+
+#: View/Users/admin_change_password.ctp:10
+#: View/Users/change_password.ctp:10
+msgid "Change"
+msgstr "Mudar"
+
+#: View/Users/admin_edit.ctp:2
+msgid "Admin Edit User"
+msgstr "Editar Usuário"
+
+#: View/Users/admin_index.ctp:45
+#: View/Users/admin_view.ctp:21
+msgid "Change Password"
+msgstr "Alterar Senha"
+
+#: View/Users/admin_index.ctp:49
+msgid "Are you sure you want to delete the user %s?"
+msgstr "Tem certeza de que deseja excluir o usuário %s?"
+
+#: View/Users/admin_view.ctp:2
+#: View/Users/view.ctp:3
+msgid "User"
+msgstr "Usuário"
+
+#: View/Users/admin_view.ctp:19
+#: View/Users/view.ctp:20
+msgid "Password"
+msgstr "Senha"
+
+#: View/Users/admin_view.ctp:127
+#: View/Users/view.ctp:101
+msgid "There isn't checklist related to this user."
+msgstr "Não há checklist relacionado a este usuário."
+
+#: View/Users/change_password.ctp:2
+#: View/Users/view.ctp:22
+msgid "Change My Password"
+msgstr "Alterar Minha Senha"
+
+#: View/Users/login.ctp:5
+msgid "Welcome to the System Checklist"
+msgstr "Bem-vindo ao Sistema de Checklist"
+
+#: View/Users/login.ctp:16
+msgid "Username:"
+msgstr "Usuário:"
+
+#: View/Users/login.ctp:18
+msgid "Password:"
+msgstr "Senha:"
+
+#: Model/User.php:validation for field username
+msgid "Enter your username"
+msgstr "Digite seu nome de usuário"
+
+#: Model/User.php:validation for field password
+msgid "Enter your password"
+msgstr "Digite sua senha"
+
+#: Model/User.php:validation for field password
+msgid "Your passwords didn't match"
+msgstr "Suas senhas não conferem"
+
+#: Model/User.php:validation for field password_confirmation
+msgid "Confirm your password"
+msgstr "Confirme sua senha"
+
+#: View/Errors/error500.ctp:19
+msgid "Error"
+msgstr "Erro"
+
+#: View/Errors/error500.ctp:20
+msgid "An Internal Error Has Occurred."
+msgstr "Um erro interno ocorreu."
+
+#: View/Layouts/error.ctp:17
+msgid "CakePHP: the rapid development php framework"
+msgstr "CakePHP: o framework php de desenvolvimento rápido"
+
+#: webroot/test.php:93
+msgid "Debug setting does not allow access to this url."
+msgstr "Configuração Debug não permite o acesso a esta URL."
+
